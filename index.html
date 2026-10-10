@@ -501,7 +501,7 @@ vid.addEventListener('loadeddata',()=>ph.style.display='none');
 vid.addEventListener('error',()=>vid.style.display='none');
 
 // 문의 폼 → 구글 시트 (Apps Script 웹앱 배포 주소를 아래에 넣으세요)
-const FORM_ENDPOINT='';
+const FORM_ENDPOINT='https://script.google.com/macros/s/AKfycbyhWaZVd2cGiJ9XzjysOqY2FrUx3X_kpvV-_K3_d9Xs4pGnlbg6BTtCh6t32t5usJHURg/exec';
 const form=document.getElementById('form'),note=document.getElementById('formNote'),sendBtn=form.querySelector('button');
 form.onsubmit=async e=>{
   e.preventDefault();
